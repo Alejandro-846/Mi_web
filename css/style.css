@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.header {
+    background: red;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_logo{
+    background: blue;
+    padding: 15px;
+}
+
+.div_menu {
+    background: green;
+    padding: 15px;
+}
+.ul_menu{
+    background: violet
+    padding: 15px;
+}
+p{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    overflow: auto;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+}
