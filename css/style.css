@@ -37,6 +37,11 @@
     list-style: none;
     font-family: "Montserrat-SemiBold";
 }
+.ul_menu li a{
+    color: var(--font-color-1);
+    text-decoration: none;
+}
+
 /********** main ******************/
 .main {
     /* background: red; */
@@ -81,13 +86,13 @@
 
 /******* section menu ****/
 
-.select_icon{
+.section_icon{
     background: #071917;
     display: flex;
     justify-content: space-evenly;
 }
 
-.select_icon img{
+.section_icon img{
     /*background: red;*/
 }
 
@@ -108,13 +113,14 @@
     .article_home{
         left: 0;
     }
-
-
-
+    .article__home span{
+        /* font-size: 1px; */
+    }
     .article_home h1{
         font-size: 70px;
     }
     .article_home p{
+
     }
     .section_icon{
         justify-content: space-around;
